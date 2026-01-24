@@ -1,0 +1,1348 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bunga Pota - Toko Bunga Online Terpercaya</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <a href="#home">
+                    <i class="fas fa-seedling"></i>
+                    <span>Toko Bunga Pota</span>
+                </a>
+            </div>
+                
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active">Beranda</a></li>
+                <li><a href="#about" class="nav-link">Tentang</a></li>
+                <li class="dropdown">
+                    <a href="#products" class="nav-link">Produk <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#bouquet">Bouquet</a></li>
+                        <li><a href="#wedding">Wedding</a></li>
+                        <li><a href="#funeral">Duka Cita</a></li>
+                        <li><a href="#plants">Tanaman</a></li>
+                    </ul>
+                </li>
+                <li><a href="#services" class="nav-link">Layanan</a></li>
+                
+                <li><a href="#contact" class="nav-link">Kontak</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <a href="#search" class="nav-action"><i class="fas fa-search"></i></a>
+                <a href="#cart" class="nav-action">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+                <a href="#wishlist" class="nav-action">
+                    <i class="fas fa-heart"></i>
+                    <span class="wishlist-count">0</span>
+                </a>
+            </div>
+
+            <div class="mobile-menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-slider">
+            <div class="slide active">
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="hero-text">
+                            <h1>Bunga Segar untuk Setiap Momen</h1>
+                            <p>Kirimkan keindahan dan kebahagiaan dengan bunga segar berkualitas tinggi. Kami menyediakan berbagai rangkaian bunga untuk semua acara istimewa Anda.</p>
+                            <div class="hero-buttons">
+                                <a href="#products" class="btn btn-primary">Lihat Produk</a>
+                                <a href="#contact" class="btn btn-secondary">Pesan Sekarang</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-image">
+                    <img src="3.jpg" alt="Bouquet Bunga Mawar">
+                </div>
+            </div>
+            
+            <div class="slide">
+                <div class="slide-content">
+                    <div class="container">
+                        <div class="hero-text">
+                            <h1>Wedding Flowers yang Memukau</h1>
+                            <p>Buat hari pernikahan Anda sempurna dengan dekorasi bunga yang indah dan elegan. Tim kami siap mewujudkan impian Anda.</p>
+                            <div class="hero-buttons">
+                                <a href="#wedding" class="btn btn-primary">Wedding Package</a>
+                                <a href="#gallery" class="btn btn-secondary">Lihat Galeri</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-image">
+                    <img src="2.jpg" alt="Wedding Flowers">
+                </div>
+            </div>
+        </div>
+        
+        <div class="slider-controls">
+            <button class="prev-slide"><i class="fas fa-chevron-left"></i></button>
+            <button class="next-slide"><i class="fas fa-chevron-right"></i></button>
+        </div>
+        
+        <div class="slider-dots">
+            <span class="dot active"></span>
+            <span class="dot"></span>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="container">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-truck"></i>
+                    </div>
+                    <h3>Pengiriman Cepat</h3>
+                    <p>Gratis ongkir untuk order di atas Rp 500.000</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>Bunga Segar</h3>
+                    <p>100% bunga segar langsung dari kebun</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Garansi Kualitas</h3>
+                    <p>Garansi 100% kepuasan pelanggan</p>
+                </div>
+                <div class="feature-item">
+                    <div class="feature-icon">
+                        <i class="fas fa-clock"></i>
+                    </div>
+                    <h3>24/7 Service</h3>
+                    <p>Layanan customer service 24 jam</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Tentang Bunga Pota</h2>
+                    <p>Sejak 2010, Bunga Pota telah menjadi pilihan utama untuk semua kebutuhan bunga Anda. Kami berkomitmen menyediakan bunga segar berkualitas tinggi dengan pelayanan terbaik.</p>
+                    <p>Dengan tim florist berpengalaman dan kebun bunga sendiri, kami mampu memberikan produk terbaik untuk setiap momen istimewa dalam hidup Anda.</p>
+                    
+                </div>
+                <div class="about-image">
+                    <img src="1.jpg" alt="Tentang Bunga Indah">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" id="products">
+        <div class="container">
+            <div class="section-header">
+                <h2>Produk Unggulan Kami</h2>
+                <p>Pilih dari berbagai koleksi bunga segar dan rangkaian yang indah</p>
+            </div>
+            
+            <div class="product-categories">
+                
+                <button class="category-btn" data-category="bouquet">Bouquet</button>
+                <button class="category-btn" data-category="wedding">Wedding</button>
+                <button class="category-btn" data-category="funeral">Duka Cita</button>
+                <button class="category-btn" data-category="plants">Tanaman</button>
+            </div>
+
+            <div class="products-grid">
+                <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="12.jpg" alt="Bouquet Mawar Merah">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouquet Mawar Biru</h3>
+                        <p class="product-desc">Rangkaian 12 mawar biru segar dengan aksen biru lembut, cocok untuk hadiah romantis.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 150.000</span>
+                            <span class="original-price">Rp 200.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="7.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouquet Campuran Merah Elegan</h3>
+                        <p class="product-desc">Kombinasi mawar merah, putih, dan baby’s breath yang memberi kesan mewah dan tegas.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 110.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="4.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouquet Campuran Pink Pastel</h3>
+                        <p class="product-desc">Rangkaian mawar pink dengan balutan kertas pastel lembut, cocok untuk hadiah ulang tahun atau ucapan manis.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 120.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="5.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouquet Campuran Pink Putih</h3>
+                        <p class="product-desc">Kombinasi mawar pink muda, putih, dan baby’s breath, menghasilkan tampilan cerah dan feminin.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 130.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="6.jpg" alt="yang baru">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouquet Campuran Navy Elegan</h3>
+                        <p class="product-desc">Campuran bunga putih dan krem dengan balutan wrapping bernuansa navy untuk tampilan elegan dan modern.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 140.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="8.jpg" alt="Bouquet Mawar Pink">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouquet Mawar Pink Gold</h3>
+                        <p class="product-desc">Rangkaian mawar pink dan putih dengan wrapping warna emas, memberikan kesan mahal dan eksklusif.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 155.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="9.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouquet Campuran Soft Peach</h3>
+                        <p class="product-desc">Buket bernuansa peach lembut dengan sentuhan coklat muda, cocok untuk ucapan terima kasih atau momen spesial.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 150.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="10.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bouquet Mawar Pastel Premium</h3>
+                        <p class="product-desc">Rangkaian mawar pastel lengkap dengan filler, menghasilkan tampilan cantik dan elegan untuk berbagai acara.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 160.000</span>
+                        </div>
+                        <div class="product-buttons">   
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="bouquet">
+                    <div class="product-image">
+                        <img src="11.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Wedding Baby’s Breath Putih</h3>
+                        <p class="product-desc">Rangkaian baby’s breath putih polos yang memberi kesan suci, lembut, dan elegan untuk momen pernikahan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 170.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+              <div class="products-grid">
+                <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding1.jpg" alt="wedding putih polos">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class= "fas fa-eye"></i></button>
+                        </div>
+                    </div>
+
+
+                    <div class="product-info">
+                        <h3>Wedding Baby’s Breath Putih</h3>
+                        <p class="product-desc">Rangkaian baby’s breath putih polos yang memberi kesan suci, lembut, dan elegan untuk momen pernikahan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 150.000</span>
+                            <span class="original-price">Rp 200.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding2.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>White Rose Classic Wedding</h3>
+                        <p class="product-desc">Wedding mawar putih dengan baby’s breath, tampilan anggun dan mewah cocok untuk acara formal atau hadiah spesial.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 111.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding3.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Blue Hydrangea Rose Wedding</h3>
+                        <p class="product-desc">Kombinasi hydrangea biru dan mawar putih yang menciptakan kesan segar dan romantis.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 121.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding5.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sky Blue Cascade Rose Wedding</h3>
+                        <p class="product-desc">Wedding menjuntai berisi mawar biru muda, memberikan tampilan elegan dan klasik.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 131.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding6.jpg" alt="yang baru">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Red Premium Rose Wedding</h3>
+                        <p class="product-desc">Rangkaian mawar merah cerah dengan sentuhan greenery, simbol cinta penuh semangat.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 141.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding7.jpg" alt="Bouquet Mawar Pink">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Purple Fantasy Rose Wedding</h3>
+                        <p class="product-desc">Wedding mawar ungu dengan aksen putih, memberi kesan mewah, unik, dan menonjol.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 175.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding8.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Yellow Celebration Rose Wedding</h3>
+                        <p class="product-desc">Wedding mawar kuning cerah dengan dekorasi putih, cocok untuk ucapan selamat atau hadiah bahagia.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 151.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding9.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Green & White Elegant Wedding</h3>
+                        <p class="product-desc">Kombinasi mawar putih dan aksen hijau, tampilan segar, natural, dan modern.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 161.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="wedding">
+                    <div class="product-image">
+                        <img src="wedding10.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Black & White Gothic Rose Wedding</h3>
+                        <p class="product-desc">Wedding mawar hitam-putih yang elegan dan berkarakter, cocok untuk tema unik atau tampilan bold.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 171.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>  
+            
+            
+<!-- funeral -->
+
+            <div class="products-grid">
+                <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka1.jpg" alt="Bouquet Mawar Merah">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Standing Spray Mawar & Lili Putih</h3>
+                        <p class="product-desc">Rangkaian berdiri vertikal berisi mawar putih dan lili, tampak formal dan khidmat.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 150.000</span>
+                            <span class="original-price">Rp 200.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka2.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Standing Spray Krisan Putih</h3>
+                        <p class="product-desc">Karangan tinggi dominan krisan putih dengan pita ucapan, cocok untuk penghormatan resmi.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 181.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka3.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Standing Spray Hitam–Putih Elegan</h3>
+                        <p class="product-desc">Rangkaian berdiri dengan aksen kain hitam dan bunga putih untuk suasana duka mendalam.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 182.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka4.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Papan Bunga Duka Cita Multiwarna</h3>
+                        <p class="product-desc">Papan bunga besar berwarna-warni, format tradisional untuk ucapan belasungkawa massal.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 183.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka5.jpg" alt="yang baru">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Standing Wreath Putih–Biru</h3>
+                        <p class="product-desc">Karangan berbentuk lingkar dengan kombinasi bunga putih dan aksen biru, simbol doa dan ketenangan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 184.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka6.jpg" alt="Bouquet Mawar Pink">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Standing Spray Mawar Pink & Baby’s Breath</h3>
+                        <p class="product-desc">Rangkaian berdiri dengan mawar pink dan aksen baby’s breath, memberi kesan lembut penuh penghormatan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 176.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka7.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Wreath Biru–Putih</h3>
+                        <p class="product-desc">Karangan lingkar dominan biru-putih, desain formal untuk upacara pemakaman atau misa.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 154.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka8.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Wreath Putih Klasik</h3>
+                        <p class="product-desc">Karangan lingkar putih bersih, simbol ketulusan dan penghormatan terakhir.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 164.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="funeral">
+                    <div class="product-image">
+                        <img src="duka9.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Papan Bunga Putih–Merah</h3>
+                        <p class="product-desc">Papan duka cita putih dengan aksen merah, tampilan resmi dan kontras untuk ucapan belasungkawa.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 118.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+<!-- plants -->
+            <div class="products-grid">
+                <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon2.jpg" alt="Bouquet Mawar Merah">
+                        <div class="product-badge">Bestseller</div>
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mawar Merah</h3>
+                        <p class="product-desc">Bunga mawar merah simbol cinta, keberanian, dan ketulusan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 150.000</span>
+                            <span class="original-price">Rp 200.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon3.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mawar Putih</h3>
+                        <p class="product-desc">Mawar putih melambangkan kesucian, ketenangan, dan keanggunan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 120.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon4.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Lily Putih</h3>
+                        <p class="product-desc">Lily putih dikenal sebagai simbol kemurnian dan penghormatan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 145.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon5.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Anggrek Ungu</h3>
+                        <p class="product-desc">Anggrek ungu memberi kesan mewah, eksotis, dan elegan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 149.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon6.jpg" alt="yang baru">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Teratai Putih</h3>
+                        <p class="product-desc">Teratai putih melambangkan kesucian, kebangkitan, dan ketenangan.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 169.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon7.jpg" alt="Bouquet Mawar Pink">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bunga Matahari</h3>
+                        <p class="product-desc">Sunflower dikenal ceria, melambangkan harapan dan energi positif.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 179.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon8.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kaktus Bunga Pink</h3>
+                        <p class="product-desc">Bunga kaktus pink menunjukkan ketangguhan dan kecantikan yang unik.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 123.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon9.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Kamboja Putih</h3>
+                        <p class="product-desc">Kamboja putih identik dengan keharuman lembut dan suasana tenang.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 190.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+                 <div class="product-card" data-category="plants">
+                    <div class="product-image">
+                        <img src="pohon10.jpg" alt="Bouquet Campuran">
+                        <div class="product-actions">
+                            <button class="action-btn wishlist-btn"><i class="fas fa-heart"></i></button>
+                            <button class="action-btn quick-view"><i class="fas fa-eye"></i></button>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Tulip Putih</h3>
+                        <p class="product-desc">Tulip putih menampilkan kesederhanaan elegan dan kemurnian hati.</p>
+                        <div class="product-price">
+                            <span class="current-price">Rp 138.000</span>
+                        </div>
+                        <div class="product-buttons">
+                            <button class="btn btn-primary add-to-cart">Tambah ke Keranjang</button>
+                            <button class="btn btn-buy buy-now">Beli Sekarang</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>  
+    </section>
+
+    <!-- Services Section -->   
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Layanan Kami</h2>
+                <p>Kami menyediakan berbagai layanan untuk memenuhi kebutuhan bunga Anda</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>Pengiriman Same Day</h3>
+                    <p>Kirim bunga segar dalam hari yang sama untuk area manggarai dan sekitarnya</p>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <h3>Pemesanan Online</h3>
+                    <p>Pesan bunga kapan saja melalui website atau Langsung hubungi kami Melalui nomor Yang sudah tercantum</p>
+                </div>
+                
+               
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Penutup Bunga</h3>
+                    <p>Bungkus cantik dengan kertas dan pita pilihan untuk hadiah istimewa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+   
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Testimoni Pelanggan</h2>
+                <p>Pengalaman nyata dari pelanggan yang telah mempercayai Bunga Pota</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Bunga yang dikirim sangat segar dan indah! Pelayanan customer service juga sangat responsif. Highly recommended!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="dini.jpg" alt="Wahdini Novianti">
+                        <div class="author-info">
+                            <h4>Wahdini Novianti</h4>
+                            <span>Labuan bajo</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Untuk acara pernikahan, Bunga Pota berhasil mewujudkan dekorasi impian kami. Tim florist sangat profesional!"</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="al.jpg" alt="Fasli Jalal">
+                        <div class="author-info">
+                            <h4>Fasli Jalal</h4>
+                            <span>Congkar</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <div class="stars">★★★★★</div>
+                        <p>"Pengiriman tepat waktu dan bunga masih segar sampai 5 hari. Kualitas yang konsisten setiap kali order."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="alif.jpg" alt="Alifia alfatih pakro">
+                        <div class="author-info">
+                            <h4>Alifya alfatih pakro</h4>
+                            <span>Alor</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Hubungi Kami</h2>
+                    <p>Kami siap membantu Anda memilih bunga terbaik untuk setiap momen istimewa</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Alamat</h4>
+                                <p>Jl. Mberu No. 123<br>Sambi rampas</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Telepon</h4>
+                                <p>+62 21 1234 5678<br>+62 812 3456 7890</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>info@bungapota.com<br>order@bungapota.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Jam Operasional</h4>
+                                <p>Senin - Minggu<br>08:00 - 20:00 WIB</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form>
+                        <div class="form-group">
+                            <input type="text" placeholder="Nama Lengkap" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" placeholder="Nomor Telepon" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Pilih Layanan</option>
+                                <option value="bouquet">Bouquet</option>
+                                <option value="wedding">Wedding</option>
+                                <option value="funeral">Duka Cita</option>
+                                <option value="plants">Tanaman</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea placeholder="Pesan" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-seedling"></i>
+                        <span>Bunga Pota</span>
+                    </div>
+                    <p>Toko bunga online terpercaya dengan kualitas terbaik dan pelayanan prima. Kirimkan keindahan untuk setiap momen istimewa.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Produk</h3>
+                    <ul>
+                        <li><a href="#bouquet">Bouquet</a></li>
+                        <li><a href="#wedding">Wedding</a></li>
+                        <li><a href="#funeral">Duka Cita</a></li>
+                        <li><a href="#plants">Tanaman</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Layanan</h3>
+                    <ul>
+                        <li><a href="#delivery">Pengiriman</a></li>
+                        <li><a href="#custom">Custom Order</a></li>
+                        <li><a href="#consultation">Konsultasi</a></li>
+                        <li><a href="#maintenance">Perawatan</a></li>
+                    </ul>
+                </div>
+                    
+                <div class="footer-section">
+                    <h3>Informasi</h3>
+                    <ul>
+                        <li><a href="#about">Tentang Kami</a></li>
+                        <li><a href="#career">Karir</a></li>
+                        <li><a href="#privacy">Kebijakan Privasi</a></li>
+                        <li><a href="#terms">Syarat & Ketentuan</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Bunga Pota. All rights reserved. Made with <i class="fas fa-heart"></i> in Indonesia</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Product Detail Modal -->
+    <div class="product-modal" id="productModal">
+        <div class="modal-overlay"></div>
+        <div class="modal-content">
+            <button class="modal-close" id="closeModal">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalProductImage" src="" alt="">
+                </div>
+                <div class="modal-info">
+                    <h2 id="modalProductName"></h2>
+                    <p class="modal-category" id="modalProductCategory"></p>
+                    <p class="modal-description" id="modalProductDescription"></p>
+                    <div class="modal-price-section">
+                        <div class="modal-price">
+                            <span class="current-price" id="modalCurrentPrice"></span>
+                            <span class="original-price" id="modalOriginalPrice"></span>
+                        </div>
+                    </div>
+                    <div class="modal-features">
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Bunga Segar 100%</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Pengiriman Cepat</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Garansi Kualitas</span>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <button class="btn btn-buy buy-now-modal">
+                            <i class="fas fa-shopping-bag"></i> Beli Sekarang
+                        </button>
+                        <button class="btn btn-primary add-to-cart-modal">
+                            <i class="fas fa-shopping-cart"></i> Tambah ke Keranjang
+                        </button>
+                        <button class="btn btn-secondary wishlist-modal">
+                            <i class="fas fa-heart"></i> Tambah ke Wishlist
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Checkout Page -->
+    <div class="checkout-page" id="checkoutPage">
+        <div class="checkout-overlay"></div>
+        <div class="checkout-container">
+            <button class="checkout-close" id="closeCheckout">
+                <i class="fas fa-times"></i>
+            </button>
+            <div class="checkout-content">
+                <div class="checkout-header">
+                    <h2><i class="fas fa-shopping-bag"></i> Checkout</h2>
+                    <p>Lengkapi informasi berikut untuk menyelesaikan pesanan Anda</p>
+                </div>
+
+                <div class="checkout-body">
+                    <div class="checkout-main">
+                        <!-- Order Summary -->
+                        <div class="checkout-section">
+                            <h3><i class="fas fa-list"></i> Ringkasan Pesanan</h3>
+                            <div class="order-items" id="checkoutItems">
+                                <!-- Items will be populated by JavaScript -->
+                            </div>
+                            <div class="order-summary">
+                                <div class="summary-row">
+                                    <span>Subtotal</span>
+                                    <span id="checkoutSubtotal">Rp 0</span>
+                                </div>
+                                <div class="summary-row">
+                                    <span>Ongkos Kirim</span>
+                                    <span id="checkoutShipping">Rp 15.000</span>
+                                </div>
+                                <div class="summary-row total">
+                                    <span>Total</span>
+                                    <span id="checkoutTotal">Rp 0</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Customer Information -->
+                        <div class="checkout-section">
+                            <h3><i class="fas fa-user"></i> Informasi Pelanggan</h3>
+                            <form class="checkout-form" id="checkoutForm">
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Nama Lengkap *</label>
+                                        <input type="text" name="name" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Nomor Telepon *</label>
+                                        <input type="tel" name="phone" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label>Email *</label>
+                                    <input type="email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label>Alamat Lengkap *</label>
+                                    <textarea name="address" rows="3" required></textarea>
+                                </div>
+                                <div class="form-row">
+                                    <div class="form-group">
+                                        <label>Kota *</label>
+                                        <input type="text" name="city" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <label>Kode Pos</label>
+                                        <input type="text" name="postal">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+
+                        <!-- Payment Method -->
+                        <div class="checkout-section">
+                            <h3><i class="fas fa-credit-card"></i> Metode Pembayaran</h3>
+                            <div class="payment-methods">
+                                <label class="payment-option">
+                                    <input type="radio" name="payment" value="bank" checked>
+                                    <div class="payment-info">
+                                        <i class="fas fa-university"></i>
+                                        <span>Transfer Bank</span>
+                                    </div>
+                                </label>
+                                <label class="payment-option">
+                                    <input type="radio" name="payment" value="cod">
+                                    <div class="payment-info">
+                                        <i class="fas fa-money-bill-wave"></i>
+                                        <span>Cash on Delivery (COD)</span>
+                                    </div>
+                                </label>
+                                <label class="payment-option">
+                                    <input type="radio" name="payment" value="ewallet">
+                                    <div class="payment-info">
+                                        <i class="fas fa-wallet"></i>
+                                        <span>E-Wallet</span>
+                                    </div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkout-sidebar">
+                        <div class="checkout-summary-card">
+                            <h3>Ringkasan</h3>
+                            <div class="summary-details">
+                                <div class="detail-row">
+                                    <span>Jumlah Item</span>
+                                    <span id="itemCount">0</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span>Subtotal</span>
+                                    <span id="sidebarSubtotal">Rp 0</span>
+                                </div>
+                                <div class="detail-row">
+                                    <span>Ongkir</span>
+                                    <span>Rp 15.000</span>
+                                </div>
+                                <div class="detail-row total">
+                                    <span>Total</span>
+                                    <span id="sidebarTotal">Rp 0</span>
+                                </div>
+                            </div>
+                            <button type="submit" form="checkoutForm" class="btn btn-primary btn-checkout-submit">
+                                <i class="fas fa-lock"></i> Proses Pesanan
+                            </button>
+                            <p class="checkout-note">
+                                <i class="fas fa-shield-alt"></i> Pembayaran aman dan terenkripsi
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
